@@ -1,0 +1,127 @@
+*{
+   margin: 0; 
+}
+body{
+    background-color: rgb(243, 221, 239);
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20vh 30vw;
+    width: fit-content;
+}
+.box1 img{
+    width: 250px;
+}
+.box .box2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    width: 210px;
+    height: 311px;
+}
+.box .box2 .font1{
+   font-family: FangSong;
+   letter-spacing: 6px;
+   color: rgb(127, 130, 133);
+}
+.box .box2 .font2{
+   font-size: 35px;
+   font-weight: bold;
+   line-height: 33px;
+}
+.box .box2 .font3{
+    font-family: FangSong;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    color: rgb(127, 130, 133);
+}
+.box .box2 .price{
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+.box .box2 .price .price1 p{
+   font-size: 30px;
+   color: green;
+}
+.box .box2 .price .price2{
+  padding: 7px;
+}
+.box .box2 a .form{
+  position: relative;
+  bottom: 5px;
+}
+.box .box2 a .form form{
+    background-color: green;
+    border-radius: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.box .box2 a .form form img{
+    padding-left: 30% ;
+}
+.box .box2 a .form form input{
+    background-color: green;
+    border: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.attribution { font-size: 11px;
+     text-align: center;
+    position: relative;
+    bottom: 70px;
+    }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(243, 221, 239);
+     overflow: hidden;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin: 0vh 0vw;
+    
+        
+    }
+    .box .box1 img{
+        width: 100vw;
+        position: relative;
+        top: -130px;
+        margin: 0 15px 0 15px;
+    }
+    .box .box2{
+       position: relative;
+       top: -280px;
+       width: 82.1vw;
+       height: fit-content;
+       margin: 0 15px 0 15px;
+    }
+    .box .box2 .font3{
+        font-family: FangSong;
+        font-size: 17px;
+        word-spacing: 2px;
+
+        line-height: 25px;
+        color: rgb(127, 130, 133);
+    }
+
+    .attribution { font-size: 11px;
+        text-align: center;
+       position: relative;
+       bottom: 270px;
+       color: hsl(228, 45%, 44%);
+       }
+    a {
+        text-decoration: none;
+    }
+
+    }
